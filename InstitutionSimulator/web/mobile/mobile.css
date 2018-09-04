@@ -1,0 +1,65 @@
+*{margin:0;padding:0;}
+html,body{margin:0;padding:0;font-family:'微软雅黑';background-color:#EFEFF4;}
+a{cursor:pointer;}
+
+/***布局***/
+#content{width:100%;height:100%;float:left;}
+
+.headbar{height:45px;line-height:45px;font-family:'微软雅黑';width:100%;border-bottom:1px solid #C8C7CC;float:left;}
+.headbar h3{margin-left:3%;width:94%;text-align:center;font-size:18px;}
+
+.mainbar{width:100%;float:left;margin-top:10px;}
+
+.btnbar{width:100%;height:45px;margin-top:20px;float:left;}
+
+.footbar{width:100%;margin-top:20px;height:40px;float:left;margin-bottom:20px;}
+.cpcn{width:230px;margin:0 auto;height:40px;}
+.cpcn a{width:40px;height:40px;float:left;}
+.cpcn h3{color:#ff870e;width:180px;float:left;height:40px;line-height:40px;font-size:16px;}
+
+.main{width:94%;margin-left:3%;float:left;}
+
+/**居中宽度***/
+.ui-290{width:290px;margin:0 auto;height:45px;}
+
+/**表单***/
+.ui-input{padding-top:10px;padding-bottom:10px;height:20px;line-height:20px;float:left;font-size:16px;width:160px;border:none;width:100%;}
+.ui-select{height:30px;line-height:30px;float:left;font-size:16px;width:100%;}
+.ui-submit{width:100%;height:45px;line-height:45px;border:none;font-size:20px;color:#fff;font-family:'微软雅黑';font-weight:bold;}
+.ui-textarea{width:100%;height:300px;border:1px solid #ccc;}
+/**常用组合样式***/
+.wp100{width:100%;}
+.mt20{margin-top:20px;}
+.mt10{margin-top:10px;}
+.fl{float:left;}
+.dn{display:none;}
+
+/**图标背景***/
+.ui-cpcn{background-image:url('images/theme.png');background-position:-25px -146px;}
+.ui-btn{background-image:url('images/theme.png');background-position:-14px -341px;}
+.ui-close{background-image:url('images/theme.png');background-position:-178px -108px;}
+
+/**Alert样式***/
+#alert{position:fixed;width:200px;background:#000;display:none;top:50%;left:50%;margin-left:-100px;margin-top:-60px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius: 10px;}
+#alert span{text-align:center;margin-top:20px;margin-bottom:20px;float:left;width:100%;color:#fff;line-height:25px;font-weight:bold;}
+
+/**定制化页面***/
+/**接口定义页面***/
+.interface{width:100%;font-size:14px;border-collapse:collapse;border-spacing:1px;text-align: -webkit-auto;margin-top:4px;float:left;border:1px solid #ccc;}
+.interface th,.interface td{border-collapse:collapse;white-space: normal;font-size:14px;line-height:35px;border:1px solid #ccc;font-family:'微软雅黑';text-align:left;background-color:#fff;}
+.interface th{padding-left:10px;color:#000;font-weight:bold;}
+.interface td{white-space:normal;border-collapse:collapse;white-space: normal;line-height:35px;padding-left:10px;padding-right:10px;}
+.interface td a{color:#f55956;text-decoration:line;}
+
+/**接口提交页面***/
+.tableForm{width:100%;font-size:14px;border-collapse:collapse;border-spacing:1px;text-align: -webkit-auto;margin-top:4px;float:left;}
+.tableForm th,.tableForm td{border-collapse:collapse;white-space: normal;font-size:16px;line-height:45px;font-family:'微软雅黑';text-align:left;background-color:#fff;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.tableForm th{padding-right:5px;color:#000;font-weight:bold;text-align:right;color:#444;}
+.tableForm td{white-space:normal;border-collapse:collapse;white-space: normal;}
+.tableForm td a{color:#f55956;text-decoration:line;}
+.tableForm td .close{width:30px;height:30px;margin-top:6px;cursor:pointer;float:left;}
+
+
+
+
+
